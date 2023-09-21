@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        height: 100vh;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+}
+
+.titulo-destaque {
+        color:#e90a15;
+}
+
+.conteudo {
+        margin: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.apresentacao-conteudo {
+        width: 615px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+}
+
+.apresentacao-conteudo-titulo {
+        font-size: 36px;
+        font-family: 'Krona One', 'sans-serif';
+}
+
+.apresentacao-conteudo-paragrafo {
+        font-size: 36px;
+        font-family: 'Montserrat', sans-serif;    
+}
+
+.apresentacao-links{
+
+        display:flex;
+        justify-content: space-between;
+}
+
+.apresentacao-links-conteudo{
+        font-family: 'Krona One', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+}
+
+.botao {
+        background-color: #fd2222;
+        color: rgb(39, 38, 38);
+        width: 280px;
+        text-align: center;
+        border-radius: 16px;
+        font-size: 24px;
+        padding: 21.5px 0;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif; 
+}
+
+.imagem {
+        max-width: 100%;
+        width: 350px;
+        height: 480px;
+        overflow: hidden;
+        border-radius: 10%;
+        border: 5px solid #f50707fb;
+        padding: 12px;
+        display: inline-block;
+        box-shadow: 15px 10px 15px 15px rgba(247, 52, 52, 0.726);
+        filter: brightness(0.8); 
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        animation: slide 4s infinite alternate;
+         
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.texto-destaque {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+  
+
+    .rodape{
+        color:white;
+        background-color: #800000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Krona One', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 20px;
+}
+
+.rodape a:hover{
+        color: #ffa500;
+}
+
+
+
+
+
